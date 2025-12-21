@@ -1,0 +1,8 @@
+[13016:1220:1220/235243.336:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[13016:12376:1220/235243.403:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[13016:1220:1220/235243.432:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[13016:1220:1220/235246.656:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[13016:10996:1220/235251.489:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13016:10996:1220/235251.492:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13016:10996:1220/235252.195:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13016:10996:1220/235252.543:ERROR:cast_crl.cc(443)] CRL - Verification failed.

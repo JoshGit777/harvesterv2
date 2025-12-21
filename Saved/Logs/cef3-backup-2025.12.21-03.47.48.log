@@ -1,0 +1,31 @@
+[13344:11988:1220/194502.075:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[13344:7328:1220/194502.149:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[13344:11988:1220/194502.183:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[13344:11988:1220/194505.783:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[13344:3068:1220/194511.047:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13344:3068:1220/194511.050:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13344:3068:1220/194511.055:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13344:3068:1220/194511.200:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[11584:7636:1220/194629.066:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 6-A7199A1C3934DC9E90D2B848A7C85E33 will be ignored
+[3428:11724:1220/194700.155:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(103,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4_int)
+
+[3428:12092:1220/194700.403:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(136,1): warning X4000: use of potentially uninitialized variable (f_i_int_int_int2)
+C:\fakepath(138,1): warning X4000: use of potentially uninitialized variable (f_i_int_int_int2)
+C:\fakepath(174,1): warning X4000: use of potentially uninitialized variable (f_u_int_int_int)
+
+[3428:2064:1220/194701.077:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(166,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel_int)
+
+[3428:2512:1220/194701.541:ERROR:gl_utils.cc(415)] [.WebGL-0000778003522200] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[3428:2512:1220/194701.541:ERROR:gl_utils.cc(415)] [.WebGL-0000778003522200] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[3428:2512:1220/194701.541:ERROR:gl_utils.cc(415)] [.WebGL-0000778003522200] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[3428:2512:1220/194701.541:ERROR:gl_utils.cc(415)] [.WebGL-0000778003522200] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[3428:2512:1220/194701.576:ERROR:gl_utils.cc(415)] [.WebGL-0000778003522200] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[3428:2512:1220/194701.576:ERROR:gl_utils.cc(415)] [.WebGL-0000778003522200] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[3428:2512:1220/194701.576:ERROR:gl_utils.cc(415)] [.WebGL-0000778003522200] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[3428:2512:1220/194701.576:ERROR:gl_utils.cc(415)] [.WebGL-0000778003522200] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[3428:2512:1220/194705.383:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[13344:11988:1220/194748.345:ERROR:menu_runner_views_aura.cc(24)] Window handle is required for default OSR context menu.
+[13344:11988:1220/194748.345:ERROR:menu_manager.cc(198)] Default context menu implementation is not available; canceling the menu
