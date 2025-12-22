@@ -1,0 +1,7 @@
+[5380:12364:1221/200500.542:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[5380:864:1221/200500.647:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[5380:12364:1221/200500.676:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[5380:12364:1221/200517.487:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[5380:12364:1221/200520.120:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[5380:856:1221/200523.270:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[5380:12364:1221/202938.060:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

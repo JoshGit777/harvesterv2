@@ -1,0 +1,23 @@
+[13856:4892:1221/203418.453:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[13856:1888:1221/203418.498:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[13856:4892:1221/203418.529:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[13856:4892:1221/203422.434:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[13856:13464:1221/203426.703:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13464:1221/204110.598:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13340:1221/213540.322:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[460:14188:1221/213540.339:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[13856:8576:1221/213545.327:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[460:15148:1221/213545.347:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[13856:13340:1221/213546.240:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[460:15148:1221/213546.241:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[13856:13464:1221/213647.330:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13464:1221/213650.932:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13464:1221/213652.319:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13464:1221/220507.890:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13464:1221/220618.328:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13464:1221/220622.319:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13464:1221/220622.544:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13464:1221/220736.043:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13464:1221/220741.556:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13464:1221/220741.896:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[13856:13464:1221/220742.081:ERROR:cast_crl.cc(443)] CRL - Verification failed.

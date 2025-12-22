@@ -1,9 +1,0 @@
-[5804:544:1220/231757.413:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[5804:12796:1220/231757.484:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[5804:544:1220/231757.549:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[5804:544:1220/231802.375:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[12848:4140:1220/231805.454:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 6-068A84040F7AD2CB87145A42F3B2998A will be ignored
-[5804:12176:1220/231806.592:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[5804:12176:1220/231806.709:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[5804:12176:1220/231807.053:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[5804:12176:1220/231810.446:ERROR:cast_crl.cc(443)] CRL - Verification failed.

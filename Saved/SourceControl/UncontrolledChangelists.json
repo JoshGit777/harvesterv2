@@ -5,13 +5,17 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Levels/Harvester.umap",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Widgets/W_Hud.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Widgets/Menu.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/8/SX/0K3S2STDPCSU4F7K4OJGAJ.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Levels/Harvester.umap",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/C/Y4/CUL6OZQRI2MHJVIVGMHYHM.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/4/NS/0SEFUEXAU45UF7OVZBLIO7.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/B/X1/29IGQ2USY4PPSJB6P3HWB3.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/3/US/CJITD9YECDWZ6LKR6K7DOC.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Interfaces/BI_Player.uasset",
-				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Widgets/W_Hud.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/5/SZ/IKPYJBF1MT2S4JY9O5W208.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/C/2G/6BKTBVG92KINZJ8TWBYA4K.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/0/M4/R8SH8YTN8CL3EYOL9SX4HW.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/3/0E/NDK89YG68642VBBDWKGNAT.uasset",
@@ -112,7 +116,7 @@
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_B.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_N.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Fab/Megascans/Surfaces/Dirt_Ground_xdhhdgq/Medium/xdhhdgq_tier_2/Textures/T_xdhhdgq_2K_ORM.uasset",
-				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/8/SX/0K3S2STDPCSU4F7K4OJGAJ.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/0/2T/U32R4XD1KZLHGNG9CWVQSK.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Materials/Dirt/Textures/gravelly_sand_nor_gl_2k.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Structs/S_ItemConfig.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Blueprints/Items/BP_Item.uasset",
@@ -123,8 +127,17 @@
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Blueprints/Items/BP_TestItem.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Input/Actions/IA_Throw.uasset",
 				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Input/Actions/IA_Use.uasset",
-				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/6/98/QQGZP5EOR8T67B99YEG2WA.uasset",
-				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/3/CX/EI842PY8HX3ZAKGVW20N3R.uasset"
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/3/CX/EI842PY8HX3ZAKGVW20N3R.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/2/45/6N7FDG5ZK7W0F2EIDEWYH1.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Interfaces/BI_Interactable.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalObjects__/Levels/Harvester/2/ZI/8TW8BNT30APJKY19GOP8O3.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/0/YP/K6Z5I9RDKCXCII00ZVXV3N.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Input/Actions/IA_Slot2.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Input/Actions/IA_Slot1.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Input/Actions/IA_Slot3.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/Blueprints/Items/BP_TestItem2.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/A/IR/ZB7N81YDVABB4E1VI2GMV3.uasset",
+				"C:/Users/jding/Documents/Unreal Projects/MyProject2/Content/__ExternalActors__/Levels/Harvester/6/98/QQGZP5EOR8T67B99YEG2WA.uasset"
 			]
 		}
 	]
