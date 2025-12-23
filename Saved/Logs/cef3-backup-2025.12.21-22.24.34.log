@@ -1,9 +1,0 @@
-[12900:6420:1221/142319.376:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[12900:14504:1221/142319.453:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[12900:6420:1221/142319.490:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[12900:6420:1221/142324.763:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[12900:2608:1221/142329.274:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[12900:2608:1221/142329.275:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[12900:2608:1221/142329.372:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[12900:2608:1221/142330.493:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[12900:6420:1221/142434.458:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
