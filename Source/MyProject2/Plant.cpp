@@ -13,9 +13,8 @@ APlant::APlant()
 
 // Called when the game starts or when spawned
 void APlant::BeginPlay()
-{
+{	
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -23,5 +22,10 @@ void APlant::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void APlant::InitializePlant()
+{
+	GetWorld()->SpawnActor<AActor>(PlantActor, GetActorTransform());
 }
 

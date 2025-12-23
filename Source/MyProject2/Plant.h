@@ -21,6 +21,11 @@ protected:
 
 public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Configuration");
+	TSubclassOf<AActor> PlantActor;
+
+	virtual void Tick(float DeltaTime) override;
+	UFUNCTION()
+		void InitializePlant();
 };
