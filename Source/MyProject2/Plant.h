@@ -5,8 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/StaticMeshComponent.h"
+#include "PlantConfiguration.h"
 #include "Plant.generated.h"
-
 
 class UStaticMeshComponent;
 
@@ -19,7 +19,7 @@ public:
 	// Sets default values for this actor's properties
 	APlant();
 
-	UPROPERTY(Category = Plant, VisibleAnywhere, meta = (AllowPrivateAccess = "true"));
+	UPROPERTY(Category = Components, EditAnywhere, meta = (AllowPrivateAccess = "true"));
 	TObjectPtr<UStaticMeshComponent> PlantMesh;
 	
 	UPROPERTY(Category="GrowthData", VisibleAnywhere, BlueprintReadOnly)
@@ -27,15 +27,28 @@ public:
 
 	UPROPERTY(Category = "GrowthData", VisibleAnywhere, BlueprintReadOnly)
 	int GrowthLevel;
+	
+	UPROPERTY(Category="GrowthData", VisibleAnywhere, BlueprintReadOnly)
+	int PlantAge;
+
+	UPROPERTY(Category="Configuration", EditAnywhere, BlueprintReadWrite)
+	FPlantConfiguration Configuration;
+
+	UPROPERTY(Category="Configuration", EditAnywhere, BlueprintReadWrite)
+	TObjectPtr<USceneComponent> SceneRoot;
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "GrowthEvents")
 	void OnGrowth(int CurrentGrowthLevel);
+
+	UFUNCTION(Category = "PlantControl")
+	bool NextGrowth();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 	
+
 
 public:	
 	// Called every frame
