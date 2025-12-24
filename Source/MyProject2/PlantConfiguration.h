@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "Components/StaticMeshComponent.h"
 #include "PlantConfiguration.generated.h"
-#include "Growth.h"
 
 USTRUCT(BlueprintType)
 struct MYPROJECT2_API FGrowthData
@@ -21,9 +20,6 @@ struct MYPROJECT2_API FGrowthData
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TObjectPtr<UStaticMeshComponent> NewGrowthMesh;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	AGrowth AddedGrowth;
 };
 
 USTRUCT(BlueprintType)
