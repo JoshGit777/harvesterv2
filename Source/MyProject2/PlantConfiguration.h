@@ -31,4 +31,9 @@ struct MYPROJECT2_API FPlantConfiguration
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TArray<FGrowthData> GrowthData;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	bool ItemizeUponGrowth;
+
+	
 };

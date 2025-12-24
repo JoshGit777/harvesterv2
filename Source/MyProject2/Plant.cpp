@@ -54,7 +54,7 @@ bool APlant::NextGrowth()
 
 	FTransform NextTransform = Configuration.GrowthData[GrowthLevel].NewRelativeTransform;
 
-	
+	OnGrowth(GrowthLevel);
 
 	return true;
 }
