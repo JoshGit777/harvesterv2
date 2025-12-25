@@ -18,13 +18,14 @@ public:
 	UPROPERTY(Category="Data", BlueprintReadOnly)
 	float CurrentTime;
 
-	
+	UPROPERTY(Category="Data", BlueprintReadOnly)
+	FTimerHandle UpdateTimer;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	void IteratePlants();
+	
 		 
 public:	
 	// Called every frame
