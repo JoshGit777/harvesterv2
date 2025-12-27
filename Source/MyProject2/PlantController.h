@@ -4,10 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "UPlantInterface.h"
+#include "Plant.h"
 #include "PlantController.generated.h"
 
 UCLASS()
-class MYPROJECT2_API APlantController : public AActor
+class MYPROJECT2_API APlantController : public AActor, public IUPlantInterface
 {
 	GENERATED_BODY()
 	
@@ -20,6 +22,13 @@ public:
 
 	UPROPERTY(Category="Data", BlueprintReadOnly)
 	FTimerHandle UpdateTimer;
+
+	UPROPERTY(Category="Data", BlueprintReadOnly)
+	TArray<APlant*> PlantRegistery;
+
+	virtual void AddPlantToRegistery(APlant PlantToAdd);
+
+	virtual void RemovePlantFromRegistery(APlant PlantToRemove);
 
 protected:
 	// Called when the game starts or when spawned

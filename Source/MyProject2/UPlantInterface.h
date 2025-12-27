@@ -8,7 +8,7 @@
 #include "UPlantInterface.generated.h"
 
 // This class does not need to be modified.
-UINTERFACE(MinimalAPI)
+UINTERFACE(MinimalAPI, Blueprintable)
 class UUPlantInterface : public UInterface
 {
 	GENERATED_BODY()

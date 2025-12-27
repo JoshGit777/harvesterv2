@@ -13,6 +13,16 @@ APlantController::APlantController()
 	CurrentTime = 0;
 }
 
+void APlantController::AddPlantToRegistery(APlant PlantToAdd)
+{
+
+}
+
+void APlantController::RemovePlantFromRegistery(APlant PlantToRemove)
+{
+
+}
+
 // Called when the game starts or when spawned
 void APlantController::BeginPlay()
 {

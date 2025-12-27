@@ -6,12 +6,13 @@
 #include "GameFramework/Actor.h"
 #include "Components/StaticMeshComponent.h"
 #include "PlantConfiguration.h"
+#include "UPlantInterface.h"
 #include "Plant.generated.h"
 
 class UStaticMeshComponent;
 
 UCLASS()
-class MYPROJECT2_API APlant : public AActor
+class MYPROJECT2_API APlant : public AActor, public IUPlantInterface
 {
 	GENERATED_BODY()
 	
@@ -42,6 +43,8 @@ public:
 
 	UFUNCTION(Category = "PlantControl")
 	bool NextGrowth();
+
+	
 
 protected:
 	// Called when the game starts or when spawned
